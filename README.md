@@ -8,9 +8,9 @@ Setup:
 
  0. It is recommended to set the IP-addresses of your devices to a static IP-address in your router settings.
  1. In the "net_listen.py" file add the devices you want to get a notification from.
- 2. Choose a timedelta a device has to be offline before it can notify you on return.
+ 2. Choose the period of time a device has to be offline before it can notify you on reconnecting.
  3. Set the number of seconds the scripts waits before trying a new attempt.
- 4. In the "send_mail.py" file set up your email address and password if necessary change the host (default is for outlook).
+ 4. In the "send_mail.py" file set up your email address and password, if necessary change the host (default is for outlook).
  5. You can change the message to your liking or change the receiver.
  
 Run the script in the background (mac & linux):
