@@ -15,8 +15,8 @@ Setup:
  
 Run the script in the background (mac & linux):
  1. Open a terminal window and type: "nohup python3 /path/to/net_listen.py &" change /path/to/ to the right location.
- 2. a "nohup.out" file is created and the outup is saved here (also in "log.txt").
- 3. to kill the process search its process ID with: "ps ax | grep net_listen.py".
- 4. kill the process with "kill PID" change PID to the process ID of "net_listen.py".
+ 2. A "nohup.out" file is created and the outup is saved in that file (also in "log.txt").
+ 3. To kill the process search its process ID with: "ps ax | grep net_listen.py".
+ 4. Kill the process with "kill PID" change PID to the process ID of "net_listen.py".
 
 TiebeVercoutter
