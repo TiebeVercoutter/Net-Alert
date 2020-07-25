@@ -5,6 +5,7 @@ This python script sends you an email if it detects a given IP-address that has 
 Connections are logged in the log.txt file.
 
 Setup:
+
  0. It is recommended to set the IP-addresses of your devices to a static IP-address in your router settings.
  1. In the "net_listen.py" file add the devices you want to get a notification from.
  2. Choose a timedelta a device has to be offline before it can notify you on return.
