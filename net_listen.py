@@ -31,7 +31,7 @@ while True:
         line = proc.stdout.readline()
         if not line:
             break
-        # Check for the IP.
+        # Check for the IP-address.
         connected_ip = line.decode('utf-8').split()[3][0:-1]
         if connected_ip == IP:
             if datetime.now() > dev.lastseen + offlineTime:
